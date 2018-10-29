@@ -1,0 +1,161 @@
+
+/* Formulario */
+.bg-formulario{
+    background-color: transparent;
+    border: solid 1px #FFF;
+}
+.bg-formulario input{
+    background: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+ 
+}
+
+.bg-formulario ::placeholder{
+    color: #fff;
+}
+
+.bg-formulario select{
+    background-color: transparent !important;
+    color: #fff !important;
+
+}
+
+.btn-enviar{ background-color: transparent; border: solid 2px #fff; color: #fff;}
+.btn-enviar:hover{ background-color:#fff; color: #FF5D00 !important;}
+
+.btn-whatsapp{ background-color:#28a745; color: #fff;}
+.btn-whatsapp:hover{ background-color: transparent; border: solid 2px #28a745;}
+
+
+#textarea::placeholder{
+    color: #FF5D00;
+}
+
+/* Introdução */
+.intro{
+    background: url('../img/banner_lp.png')center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    padding: 100px auto;
+}
+
+.intro-form{
+    padding-top: 20px;
+    border-radius: 5px;   
+}
+
+.form-titulo{
+    color: #fff;
+    font-weight: bold;
+}
+.sobre > h2{
+    padding-top: 60px;
+}
+
+/* Serviço Principal */
+.servico-principal{
+    padding: 100px 0 40px 0;
+}
+
+.servico-principal h2{
+    color: #FF5D00;
+    font-size: 43px;
+    font-weight: 500px;
+}
+
+
+/* SERVIÇO */
+.servico-h2{
+    color: #FF5D00;
+    font-weight: 500;
+}
+
+.servico-h2::after{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+    width: 100px;
+    background-color: #FF5D00;
+}
+
+/* Call To Action */
+.cta{
+    background-color: #FF5D00;
+    padding: 70px 0px;
+    margin: 100px 0;
+}
+
+.btn-cta{
+    font-size: 1.5em;
+}
+
+/* SOBRE */
+.sobre-titulo{
+    font-size: 2.7em;
+    color: #FF5D00;
+}
+
+.sobre-titulo::after{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+    width: 100px;
+    background-color: #FF5D00;
+}
+
+/* Galeria */
+.galeria-titulo{
+    padding: 100px 0 40px 0;
+    color: #FF5D00;
+    font-size: 43px;
+    font-weight: 500px;
+}
+
+.galeria-titulo::after{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+    width: 150px;
+    background-color: #FF5D00;
+
+}
+
+/* Footer */
+.footer:visited,.footer:active,.footer:link{
+    color: #FF5D00;
+    text-decoration: none !important;
+}
+
+.footer{
+    font-size: 1em;
+}
+
+/* Contato */
+.contato-titulo{
+    padding: 100px 0 40px 0;
+    color: #FF5D00;
+    font-size: 43px;
+    font-weight: 500px;
+}
+
+
+.contato-subtitulo{
+    font-weight: 300;
+    color: #FF5D00;
+}
+
+.contato-subtitulo::after,.contato-titulo::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100px;
+    margin: 0 auto;
+    background-color: #FF5D00;
+}
